@@ -18,19 +18,19 @@ public class Fase4 {
         cdz = sc.nextLine();
         san = sc.nextLine();
         //CREEM L'ARRAY DE CARÀCTERS CORRESPONENT A CADA CIUTAT
-        char[] arrayBcn = Fase4.omplirArray(bcn);
-        char[] arrayMad = Fase4.omplirArray(mad);
-        char[] arrayVlc = Fase4.omplirArray(vlc);
-        char[] arrayMlg = Fase4.omplirArray(mlg);
-        char[] arrayCdz = Fase4.omplirArray(cdz);
-        char[] arraySan = Fase4.omplirArray(san);
+        char[] arrayBcn = omplirArray(bcn);
+        char[] arrayMad = omplirArray(mad);
+        char[] arrayVlc = omplirArray(vlc);
+        char[] arrayMlg = omplirArray(mlg);
+        char[] arrayCdz = omplirArray(cdz);
+        char[] arraySan = omplirArray(san);
         //MOSTREM LES CIUTATS AMB ELS NOMS ORDENATS I INVERTITS
-        Fase4.mostrarCiutat(arrayBcn);
-        Fase4.mostrarCiutat(arrayMad);
-        Fase4.mostrarCiutat(arrayVlc);
-        Fase4.mostrarCiutat(arrayMlg);
-        Fase4.mostrarCiutat(arrayCdz);
-        Fase4.mostrarCiutat(arraySan);
+        mostrarCiutat(arrayBcn);
+        mostrarCiutat(arrayMad);
+        mostrarCiutat(arrayVlc);
+        mostrarCiutat(arrayMlg);
+        mostrarCiutat(arrayCdz);
+        mostrarCiutat(arraySan);
     }
     //Mètode que s'encarrega d'omplir i retornar l'array de caràcters de la ciutat que es passa per paràmetre
     public static char[] omplirArray(String ciutat){
